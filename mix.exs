@@ -24,7 +24,7 @@ defmodule Example.MixProject do
       {:phoenix, "~> 1.1 or ~> 1.2"},
       {:phoenix_html, "~> 2.3"},
       {:cowboy, "~> 1.0", only: [:dev, :test]},
-      {:slime, "~> 0.14"}
+      {:ex_doc, "~> 0.21", only: :dev, runtime: false}
     ]
   end
 
