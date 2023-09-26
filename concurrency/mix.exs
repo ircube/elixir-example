@@ -3,7 +3,7 @@ defmodule Concurrency.MixProject do
 
   def project do
     [
-      app: :concurrency,
+      app: :example,
       version: "0.1.0",
       elixir: "~> 1.15",
       start_permanent: Mix.env() == :prod,
